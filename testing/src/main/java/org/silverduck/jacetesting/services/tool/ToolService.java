@@ -13,6 +13,7 @@ import javax.ejb.Stateless;
 public class ToolService {
     public void wrench(Wrench wrench) {
         System.out.println("Wrenching away with my " + wrench);
+        System.out.println("Wrenching away even more with my " + wrench);
     }
 
 }
