@@ -15,6 +15,7 @@ public class ToolService {
         System.out.println("Wrenching away a bit with my " + wrench);
         System.out.println("The Wrench broke. Bummer");
         System.out.println("I repaired it with duct tape and wire.");
+        System.out.println("Holy smokes I can wrench again.");
     }
 
 }
