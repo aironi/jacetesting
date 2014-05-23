@@ -9,7 +9,7 @@ public class Wrench extends AbstractTool {
 
     private Long milliMetres;
 
-    private String nickName;
+    private Long weight;
 
     public String getColor() {
         return color;
@@ -19,8 +19,8 @@ public class Wrench extends AbstractTool {
         return milliMetres;
     }
 
-    public String getNickName() {
-        return nickName;
+    public Long getWeight() {
+        return weight;
     }
 
     public void setColor(String color) {
@@ -31,7 +31,7 @@ public class Wrench extends AbstractTool {
         this.milliMetres = milliMetres;
     }
 
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
+    public void setWeight(Long weight) {
+        this.weight = weight;
     }
 }

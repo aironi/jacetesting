@@ -17,6 +17,11 @@ public class ToolService {
         System.out.println("I repaired it with duct tape and wire.");
         System.out.println("Holy smokes I can wrench again.");
         System.out.println("Umm.. My wrist broke.");
+        System.out.println("I repaired it with splint and tape.");
+    }
+
+    public void hammer(Wrench wrench) {
+        System.out.print("You really shouldn't hammer with a wrench.");
     }
 
 }
