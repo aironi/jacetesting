@@ -13,6 +13,7 @@ public abstract class AbstractTool {
     @Id
     @GeneratedValue
     private Long id;
+    private String nickName;
 
     public Long getId() {
         return id;
@@ -20,5 +21,13 @@ public abstract class AbstractTool {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
     }
 }
