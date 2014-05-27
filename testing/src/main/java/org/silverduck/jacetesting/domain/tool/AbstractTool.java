@@ -15,6 +15,7 @@ public abstract class AbstractTool {
     private Long id;
     private String nickName;
     private Long weight;
+    private String color;
 
     public Long getId() {
         return id;
@@ -38,5 +39,13 @@ public abstract class AbstractTool {
 
     public void setWeight(Long weight) {
         this.weight = weight;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 }
