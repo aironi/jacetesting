@@ -14,6 +14,7 @@ public abstract class AbstractTool {
     @GeneratedValue
     private Long id;
     private String nickName;
+    private Long weight;
 
     public Long getId() {
         return id;
@@ -29,5 +30,13 @@ public abstract class AbstractTool {
 
     public void setNickName(String nickName) {
         this.nickName = nickName;
+    }
+
+    public Long getWeight() {
+        return weight;
+    }
+
+    public void setWeight(Long weight) {
+        this.weight = weight;
     }
 }

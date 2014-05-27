@@ -9,8 +9,6 @@ public class Wrench extends AbstractTool {
 
     private Long milliMetres;
 
-    private Long weight;
-
     public String getColor() {
         return color;
     }
@@ -19,20 +17,12 @@ public class Wrench extends AbstractTool {
         return milliMetres;
     }
 
-    public Long getWeight() {
-        return weight;
-    }
-
     public void setColor(String color) {
         this.color = color;
     }
 
     public void setMilliMetres(Long milliMetres) {
         this.milliMetres = milliMetres;
-    }
-
-    public void setWeight(Long weight) {
-        this.weight = weight;
     }
 
 }
