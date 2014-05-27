@@ -11,6 +11,11 @@ import javax.ejb.Stateless;
 @Stateless
 @LocalBean
 public class ToolService {
+
+    public void hammer(Wrench wrench) {
+        System.out.print("You really shouldn't hammer with a wrench.");
+    }
+
     public void wrench(Wrench wrench) {
         System.out.println("Wrenching away a bit with my " + wrench);
         System.out.println("The Wrench broke. Bummer");
@@ -18,10 +23,7 @@ public class ToolService {
         System.out.println("Holy smokes I can wrench again.");
         System.out.println("Umm.. My wrist broke.");
         System.out.println("I repaired it with splint and tape.");
-    }
-
-    public void hammer(Wrench wrench) {
-        System.out.print("You really shouldn't hammer with a wrench.");
+        System.out.println("Wrenching again.");
     }
 
 }

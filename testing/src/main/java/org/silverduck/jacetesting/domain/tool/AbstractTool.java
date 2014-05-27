@@ -13,7 +13,7 @@ public abstract class AbstractTool {
     @Id
     @GeneratedValue
     private Long id;
-    private String nickName;
+
     private Long weight;
     private String color;
 
@@ -25,13 +25,6 @@ public abstract class AbstractTool {
         this.id = id;
     }
 
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
 
     public Long getWeight() {
         return weight;
