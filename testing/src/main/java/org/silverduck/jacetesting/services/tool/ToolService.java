@@ -25,8 +25,9 @@ public class ToolService {
         System.out.println("I repaired it with splint and tape.");
         System.out.println("Wrenching again.");
         System.out.println("The Nut broke...");
-        System.out.println("I glued the nut on with chemical metal.");
+        System.out.println("I glued the nut with chemical metal.");
         System.out.println("Wrenching again..");
+        System.out.println("The bolt broke.");
     }
 
 }
