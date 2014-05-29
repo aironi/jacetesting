@@ -29,6 +29,7 @@ public class ToolService {
         System.out.println("Wrenching again..");
         System.out.println("The bolt broke.");
         System.out.println("Getting pretty frustrated..");
+        System.out.println("Firing up my drill to drill the bolt off..");
     }
 
 }
