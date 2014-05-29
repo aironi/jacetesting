@@ -6,6 +6,7 @@ package org.silverduck.jacetesting.domain.tool;
 public class Hammer extends AbstractTool {
     private Long diameter;
 
+
     public Long getDiameter() {
         return diameter;
     }
