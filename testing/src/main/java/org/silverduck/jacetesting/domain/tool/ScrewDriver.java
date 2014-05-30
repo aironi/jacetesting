@@ -6,11 +6,5 @@ package org.silverduck.jacetesting.domain.tool;
 public class ScrewDriver extends AbstractTool {
     private int size;
 
-    public int getSize() {
-        return size;
-    }
 
-    public void setSize(int size) {
-        this.size = size;
-    }
 }
